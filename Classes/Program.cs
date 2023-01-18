@@ -41,7 +41,7 @@ namespace Classes
     {
         public void Run()
         {
-            Console.WriteLine("Tümü elektrik ile çalışır");
+            Console.WriteLine("All powered by electricity");
         }
         public abstract void Show();
     }
@@ -51,7 +51,7 @@ namespace Classes
        
         public override void Show()
         {
-            Console.WriteLine("Buzdolabı yiyecek ve içecekleri korur");
+            Console.WriteLine("Refrigerator preserves food and drink");
         }
 
 
@@ -61,11 +61,11 @@ namespace Classes
     {
         public override void Show()
         {
-            Console.WriteLine("Çamaşır makinesi Kıyafetleri yıkar");
+            Console.WriteLine("Washing machine Washes clothes");
         }
         public void Renk()
         {
-            Console.WriteLine("Rengi gridir.");
+            Console.WriteLine("Color is gray.");
         }
 
 
@@ -75,7 +75,7 @@ namespace Classes
     {
         public override void Show()
         {
-            Console.WriteLine("Bulaşık makinesi tabakları yıkar");
+            Console.WriteLine("Dishwasher washes dishes");
         }
     }
 
@@ -83,12 +83,12 @@ namespace Classes
     {
         public override void Show()
         {
-            Console.WriteLine("Televizyonda film izleriz");
+            Console.WriteLine("We watch movies on TV");
         }
 
         public void Control()
         {
-            Console.WriteLine("TV kumanda ile KONTROL EDİLİR");
+            Console.WriteLine("CONTROLLED by TV remote");
         }
     }
 
